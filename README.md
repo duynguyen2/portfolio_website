@@ -1,6 +1,7 @@
 # Duy N's Portfolio
 
 Hello, my name is Duy and this is my portfolio! Though I have an undergraduate degree in Computer Engineering, I've come to realize that I would much rather be a software engineer.
+
 I've grown up on technology and it's always fascinated me, and while I like working with hardware and building cool things, my interest much rather lies in software.
 The small things that become the vital backbone of the technologies we use in our everyday lives is what truly impacted me to take this path.
 

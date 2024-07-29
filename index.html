@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!--CSS Styles -->
-    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
 
     <!-- Favicons -->
     <link
@@ -32,7 +32,7 @@
   <body>
     <!-- Navbar -->
     <nav>
-        <h1>DUY NGUYEN</h1>
+        <h1>Duy C. Nguyen</h1>
         <ul class="navigation">
           <li><a href="#about" class="nav-link">About</a></li>
           <li><a href="#skills" class="nav-link">Skills</a></li>
@@ -46,12 +46,12 @@
     <!-- Hero Section -->
     <section class="hero" id="about">
         <img
-          src="assets/images/image.jpeg"
+          src="assets/images/large_user_7647102_511.jpg"
           alt="duy-nguyen"
           loading="lazy"
           class="hero-img"
         />
-        <div class="bio animate__animated animate__shakeX">
+        <div class="bio animate__animated animate__fadeInDown">
           <h2 class="bio-title">About Me</h2>
           <p class="bio-text">
             A long-time programmer, no longer wishing to simply aspire to do something great, but to become the source of greatness.
@@ -62,39 +62,42 @@
     <!-- More about -->
     <section class="more-about">
       <h2>More About Me</h2>
+      <h3 class="subhead">My Education</h3>
       <p>
         Graduated with a B.S. in Computer Engineering from San Francisco State University back in December, 2021. I applied for the Computer Engineering program to try to diversify my interests after taking some computer sciences courses in high school.
         About halfway through my studies, I realized as fun as it is, I would rather turn my focuses into software engineering. The path that lead me there was taking more and more computer sciences required courses that piqued my interests.
         As COVID-19 had heavily impacted the way I studied, the more ideas popped into my head and the more I found out that the world could use to make things easier, and how my colleagues didn't have easy access or the proper tools to handle their courses once things became remote.
         Part of my goals is to utilize my knowledge to create/work on something great, become the backbone of what people rely on.
       </p>
+      <h3 class="subhead">Engineering Background</h3>
       <p>
         Expanding my knowledge in full-stack engineering, while being able to focus on simply front-end or back-end. I am a quick learner that is more than motivated to use and learn new skills and technologies.
       </p>
+      <h3 class="subhead">Learn More Personal Stuff</h3>
       <p>
         My hobbies include video games, social media, learning new skills like video editing and producing music. I am very competitive and once I set my mind on something, I really get it done. Give me an inch and I will take a mile!
       </p>
     </section>
     <!-- Skills section -->
     <section class="skills" id="skills">
-      <h2 class="skill-header">My Top Skills</h2>
+      <h2 class="skill-header">My Skillset</h2>
 
       <div class="skills-wrapper">
         <div class="first-set animate__animated animate__pulse">
           <img
-            src="assets/icons/icons8-html-5.svg"
+            src="assets/icons/logo-javascript.svg"
             alt=""
             loading="lazy"
             class="icon icon-card"
           />
           <img
-            src="assets/icons/icons8-css3.svg"
+            src="assets/icons/logo-html5.svg"
             alt=""
             loading="lazy"
             class="icon icon-card"
           />
           <img
-            src="assets/icons/icons8-javascript.svg"
+            src="assets/icons/logo-css3.svg"
             alt=""
             loading="lazy"
             class="icon icon-card"
@@ -103,19 +106,19 @@
 
         <div class="second-set animate__animated animate__pulse">
           <img
-            src="assets/icons/icons8-bootstrap.svg"
+            src="assets/icons/icons8-java-500.svg"
             alt=""
             loading="lazy"
             class="icon icon-card"
           />
           <img
-            src="assets/icons/icons8-react-native.svg"
+            src="assets/icons/logo-react.svg"
             alt=""
             loading="lazy"
             class="icon icon-card"
           />
           <img
-            src="assets/icons/icons8-git.svg"
+            src="assets/icons/logo-github.svg"
             alt=""
             loading="lazy"
             class="icon icon-card"
@@ -124,53 +127,68 @@
       </div>
     </section>
     <!-- Projects section -->
-
+    <section class="projects" id="projects">
+      <h2 class="projects-title">Recent Projects</h2>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <img
+            src="assets/images/icons8-mail-48.png"
+            alt="mixed-messages"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Mixed Messages</h3>
+          <p class="project-details">
+            Small project that returns a message! There are two versions. A very small, simple one that returns a message and piece of advice after running it. The other is the a proper web page that will do the same after pressing a button on the page!
+          </p>
+          <a href="https://github.com/duynguyen2/Mixed-Messages" target="_blank" class="project-link">Check it Out</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src=""
+            alt="place-holder"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">place-holder</h3>
+          <p class="project-details">
+            place-holder
+          </p>
+          <a href="#" target="_blank" class="project-link">Check it Out</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src=""
+            alt="place-holder"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">place-holder</h3>
+          <p class="project-details">
+            place-holder
+          </p>
+          <a href="#" target="_blank" class="project-link">Check it Out</a>
+        </div>
+      </div>
+    </section>
     <!-- Contact section -->
     <section class="contact" id="contact">
       <h2>Get In Touch With Me</h2>
       <div class="contact-form-container">
         <div class="contact-form">
-          <form action="https://formspree.io/f/xyylngw" method="POST">
-            <div class="form-control">
-              <label for="name">Name</label>
-              <input
-                type="text"
-                id="name"
-                name="sender-name"
-                placeholder="Enter Your Name"
-                class="input-field"
-                required
-              />
-            </div>
-            <div class="form-control">
-              <label for="email">Email</label>
-              <input
-                type="email"
-                id="email"
-                name="sender-email"
-                placeholder="Enter Your Email"
-                class="input-field"
-                required
-              />
-            </div>
-            <div class="form-control">
-              <label for="message">Message</label>
-              <textarea
-                id="message"
-                cols="60"
-                rows="10"
-                placeholder="Enter Your Message"
-                name="message"
-                class="input-field"
-                required
-              ></textarea>
-            </div>
-            <input
-              type="submit"
-              value="Submit"
-              id="submit-btn"
-              class="submit-btn"
-            />
+          <!-- modify this form HTML and place wherever you want your form -->
+          <form action="https://formspree.io/f/mnnapwya" method="POST" >
+          <label>Your email:
+            <input type="email" name="email">
+          </label>
+          <br>
+          <label>
+            Your message:
+            <br>
+            <textarea name="message"></textarea>
+          </label>
+          <!-- your other form fields go here -->
+          <button type="submit">Send</button>
           </form>
         </div>
       </div>
