@@ -178,25 +178,77 @@
         <div class="contact-form">
           <!-- modify this form HTML and place wherever you want your form -->
           <form action="https://formspree.io/f/mnnapwya" method="POST" >
+            <div class="form-control">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              id="name"
+              name="sender-name"
+              placeholder="Enter Your Name"
+              class="input-field"
+              required
+            />
+          </div>
           <label>Your email:
-            <input type="email" name="email">
+            <input
+              type="email"
+              name="email"
+              placeholder="Enter Your Email"
+              class="input-field"
+              required
+            >
           </label>
           <br>
           <label>
             Your message:
             <br>
-            <textarea name="message"></textarea>
+            <input
+              name="message"
+              id="message"
+              cols="60"
+              rows="10"
+              placeholder="Enter Your Message"
+              name="message"
+              class="input-field"
+              required
+            >
           </label>
+          <br>
           <!-- your other form fields go here -->
-          <button type="submit">Send</button>
+          <input
+            type="submit"
+            value="Submit"
+            id="submit-btn"
+            class="submit-btn"
+          />
           </form>
         </div>
       </div>
     </section>
     <!-- Scroll to top -->
-
+    <div class="socials">
+      <a href="https://www.linkedin.com/in/duy-n-84385a13a/" target="_blank">
+      <img
+          src="assets/icons/icons8-linkedin-480.png"
+          alt="Linkedin"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://github.com/duynguyen2" target="_blank"
+        ><img src="assets/icons/icons8-github-512.png" alt="Github" class="socicon"
+      /></a>
+    </div>
     <!-- Footer section -->
-
+    <footer>
+      <p class="copy">&copy; Copyright 2024</p>
+      <p class="copy">By Duy C. Nguyen</p>
+      <p class="copy">
+        Inspired by
+        <a href="https://twitter.com/koladechris" target="_blank"
+          >Kolade Chris (Ksound)</a
+        >
+      </p>
+    </footer>
     <!-- Website scripts -->
     <script src="assets/js/app.js"></script>
 
