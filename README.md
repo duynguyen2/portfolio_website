@@ -1,4 +1,4 @@
-# Duy N's Portfolio
+# Duy Nguyen's Portfolio
 
 Hello, my name is Duy and this is my portfolio! Though I have an undergraduate degree in Computer Engineering, I've come to realize that I would much rather be a software engineer.
 
