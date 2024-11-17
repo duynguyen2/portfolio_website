@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    color: #3b6ac0 !important;
+}
+
+body {
+    background: #0f1016;
+    padding: 20px;
+    animation: fadeInAnimation ease 2s;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav .logo {
+    height: 64px;
+    width: 76px;
+    background: #18181b;
+    border: 1px solid #27272a;
+    border-radius: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav .logo i {
+    font-size: 26px;
+    color: #3b6ac0;
+}
+
+nav .links {
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 66px;
+    background: 1px solid #18181b;
+    border: 1px solid #27272a;
+    border-radius: 48px;
+}
+
+nav .links a {
+    font-size: 20px;
+}
+
+nav .links a.active {
+    font-weight: bold;
+    color: #5079ff;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 42px;
+    background: #18181b;
+    border: 1px solid #27272a;
+    border-radius: 14px;
+
+}
+
+.about .left h3{
+    color: #bdbdbd;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.about .left .info {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.about .left .info h2 {
+    font-size: 36px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.about .left .info p {
+    font-size: 20px;
+    color: #bdbdbd;
+}
+
+.about .left .info .buttons {
+    display: flex;
+    gap: 14px;
+}
+
+.about .left .info .buttons button{
+    font-size: 16px;
+    padding: 6px 10px;
+    border-radius: 7px;
+    display: flex;
+    align-items: flex;
+    gap: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.about .left .info .buttons button.hire {
+    color: #fff;
+    background: #34374b;
+    border: 1px solid #171717;
+}
+
+.about .left .info .buttons button.hire:hover {
+    background: #575e92;
+}
+
+.about .left .info .buttons button.email {
+    color: #fff;
+    background: #26274b;
+    border: 1px solid #171717;
+}
+
+.about .left .info .buttons button.email:hover {
+    background: #3a3b72;
+}
+
+.about .right a.online {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background: #171717;
+    border: 1px solid #27272a;
+    padding: 4px 15px;
+    border-radius: 14px;
+    font-size: 14px;
+}
+
+.about .right a.online i {
+    color: #4acf50;
+    font-size: 9px;
+}
+
+.about .right img{
+    width: 200px;
+    height: 250px;
+    border-radius: 50%;
+    border: 8px solid #2c2c2c;
+}
+
+.work-experience {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.work-experience .left {
+    flex: 1;
+    background: #18181b;
+    padding: 60px 40px;
+    border-radius: 14px;
+    border: 1px solid #27272a;
+}
+
+.work-experience .left h3 {
+    color: #bdbdbd;
+    font-weight: 5000;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 24px;
+}
+
+.work-experience .left h3 i {
+    font-size: 8px;
+}
+
+.work-experience .left .job .active {
+    font-size: 20px;
+}
+
+.work-experience .left .job {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.work-experience .left .job .job-info {
+    color: #388e3c;
+}
+
+.work-experience .left .job .job-info p{
+    margin-top: 12px;
+    color: #bdbdbd;
+    font-size: 20px;
+}
+
+.work-experience .left .job .job-info h5 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.work-experience .left .job .job-info h5 active {
+    color: #388e3c;
+}
+
+.work-experience .left .job .job-info p {
+    margin-top: 12px;
+    color: #bdbdbd;
+    font-size: 20px;
+}
+
+.work-experience .left .job .item > p {
+    font-size: 20px;
+    color: #bdbdbd;
+}
+
+.work-experience .projects .right {
+    flex: 1;
+}
+
